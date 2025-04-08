@@ -40,9 +40,12 @@ router.post(`/ingresos-complicaciones-agudas`, ingresosComplicacionesAgudasContr
 router.get(`/ingresos-complicaciones-agudas/:id_complicacion`, ingresosComplicacionesAgudasController.getIngresoPorComplicacion);
 // Complicaciones Crónicas
 router.post(`/complicaciones-cronicas`, complicacionCronicaValidate.validacionCrearComplicacionCronica, complicacionesCronicasController.createComplicacionesCronicas);
+router.put(`/complicaciones-cronicas/:id`, complicacionesCronicasController.updateComplicacionesCronicas);
+router.get(`/complicaciones-cronicas/:id_paciente`, complicacionesCronicasController.getComplicacionesCronicasPorPaciente);
 // Trasplantes Progenitores
 router.post(`/trasplantes-progenitores`, trasplanteProgenitorValidate.validacionCrearTrasplanteProgenitor, trasplantesProgenitoresController.crearTransplanteProgenitores);
 router.get(`/trasplantes-progenitores/:id_paciente`, trasplantesProgenitoresController.getTransplantePorPaciente);
+
 // Laboratorios
 router.post(`/laboratorios`, laboratorioValidate.validacionCrearLaboratorio, laboratoriosController.createLaboratorio);
 router.get(`/laboratorios/:id_paciente`, laboratoriosController.getLaboratoriosByPaciente);

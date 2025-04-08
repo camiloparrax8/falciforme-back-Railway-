@@ -22,59 +22,59 @@ module.exports = (sequelize, DataTypes) => {
       },
       vasculopatia_cerebral: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        allowNull: true,
       },
       infartos_cerebrales_silentes: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        allowNull: true,
       },
       epilepsia_convulsiones: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        allowNull: true,
       },
       cefaleas_recurrentes: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        allowNull: true,
       },
       deficit_cognitivo: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        allowNull: true,
       },
       retinopatia_drepanocitica: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        allowNull: true,
       },
       hemorragias_vitreas: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        allowNull: true,
       },
       neovascularizacion_retiniana: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        allowNull: true,
       },
       iritis_uveitis: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        allowNull: true,
       },
       oclusion_vasos_retinianos: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        allowNull: true,
       },
       disfuncion_diastolica_vii: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        allowNull: true,
       },
       sobrecarga_ferrica: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        allowNull: true,
       },
       trombosis: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        allowNull: true,
       },
       hipertension_pulmonar: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        allowNull: true,
       },
       vrt: {
         type: DataTypes.STRING(50),
@@ -90,11 +90,11 @@ module.exports = (sequelize, DataTypes) => {
       },
       hipomexia: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        allowNull: true,
       },
       saos: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        allowNull: true,
       },
       edpfc_tratamiento: {
         type: DataTypes.STRING(255),
@@ -102,43 +102,43 @@ module.exports = (sequelize, DataTypes) => {
       },
       hepatitis_viral_cronica: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        allowNull: true,
       },
       esplenomegalia: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        allowNull: true,
       },
       hiperesplenismo: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        allowNull: true,
       },
       nefropatia: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        allowNull: true,
       },
       acidosis_tubular: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        allowNull: true,
       },
       priapismo_recurrente: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        allowNull: true,
       },
       proteinuria: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        allowNull: true,
       },
       hipotensia: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        allowNull: true,
       },
       hematuria_necrosis_papilar: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        allowNull: true,
       },
       enfermedad_renal_cronica: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        allowNull: true,
       },
       huesos_comprometidos: {
         type: DataTypes.STRING(255),
@@ -146,11 +146,11 @@ module.exports = (sequelize, DataTypes) => {
       },
       osteonecrosis: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        allowNull: true,
       },
       osteopenia: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        allowNull: true,
       },
       grado_discapacidad: {
         type: DataTypes.STRING(50),
@@ -158,7 +158,7 @@ module.exports = (sequelize, DataTypes) => {
       },
       deformidades_osea: {
         type: DataTypes.BOOLEAN,
-        defaultValue: false,
+        allowNull: true,
       },
       estado: {
         type: DataTypes.BOOLEAN,
