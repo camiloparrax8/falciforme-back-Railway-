@@ -1,0 +1,19 @@
+crear modelo y migracion:
+sequelize model:create --name NombreModelo --attributes quitar:string
+--se debe quitarl la variable "quitar"
+
+create un seeder:
+npx sequelize-cli seed:generate --name add-vacunas
+
+
+
+EJECUTAR MIGRACION Y SEEDERS:
+
+1- te paras en la carpeta database y ejecutas 
+
+npx sequelize-cli db:migrate  -> ejecuta las migraciones 
+npx sequelize-cli db:seed:all -> ejecuta los seeder 
+
+npx sequelize-cli db:migrate:undo -> retroce todas las migraciones 
+
+ 

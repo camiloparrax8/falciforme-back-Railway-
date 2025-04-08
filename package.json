@@ -1,0 +1,36 @@
+{
+  "name": "signos-vitales-back",
+  "version": "1.0.0",
+  "description": "Backend del proyecto de monitoreo de signos vitales a los pacientes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/jguzmanpineda02/signos-vitales-back.git"
+  },
+  "author": "Camilo Parra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/"
+  },
+  "homepage": "https://gitlab.com/",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-list-routes": "^1.2.4",
+    "express-validator": "^7.0.1",
+    "faker": "^5.5.3",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.29.4",
+    "mysql2": "^3.3.1",
+    "nodemon": "^3.1.7",
+    "path": "^0.12.7",
+    "sequelize": "^6.37.5",
+    "sequelize-cli": "^6.6.0"
+  }
+}
