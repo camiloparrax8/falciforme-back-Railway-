@@ -1,20 +1,20 @@
 {
   "development": {
-    "username": "root",
+    "username": "u522362510_railway",
     "password": "1hfK7dbJ~;I~",
     "database": "u522362510_railway",
     "host": "193.203.175.52",
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
+    "username": "u522362510_railway",
     "password": "1hfK7dbJ~;I~",
     "database": "u522362510_railway",
     "host": "193.203.175.52",
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
+    "username": "u522362510_railway",
     "password": "1hfK7dbJ~;I~",
     "database": "u522362510_railway",
     "host": "193.203.175.52",
