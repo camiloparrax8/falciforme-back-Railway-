@@ -3,12 +3,14 @@
     "username": "u522362510_puche",
     "password": "]CwiR!o4",
     "database": "u522362510_puche",
+    "port": 3306,
     "host": "193.203.175.52",
     "dialect": "mysql"
   },
   "test": {
     "username": "u522362510_puche",
     "password": "]CwiR!o4",
+    "port": 3306,
     "database": "u522362510_puche",
     "host": "193.203.175.52",
     "dialect": "mysql"
@@ -16,6 +18,7 @@
   "production": {
     "username": "u522362510_puche",
     "password": "]CwiR!o4",
+    "port": 3306,
     "database": "u522362510_puche",
     "host": "193.203.175.52",
     "dialect": "mysql"
