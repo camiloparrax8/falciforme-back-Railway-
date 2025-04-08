@@ -1,23 +1,23 @@
 {
   "development": {
     "username": "root",
-    "password": null,
-    "database": "falciforme-back",
-    "host": "127.0.0.1",
+    "password": "1hfK7dbJ~;I~",
+    "database": "u522362510_railway",
+    "host": "193.203.175.52",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": null,
-    "database": "falciforme-back",
-    "host": "127.0.0.1",
+    "password": "1hfK7dbJ~;I~",
+    "database": "u522362510_railway",
+    "host": "193.203.175.52",
     "dialect": "mysql"
   },
   "production": {
     "username": "root",
-    "password": null,
-    "database": "falciforme-back",
-    "host": "127.0.0.1",
+    "password": "1hfK7dbJ~;I~",
+    "database": "u522362510_railway",
+    "host": "193.203.175.52",
     "dialect": "mysql"
   }
 }
