@@ -78,7 +78,7 @@ module.exports = (sequelize, DataTypes) => {
         {
             sequelize,
             modelName: 'EsquemaVacunacion',
-            tableName: 'esquema_vacunacion',
+            tableName: 'Esquema_Vacunacion',
             timestamps: true,
             paranoid: true,
             underscored: true,

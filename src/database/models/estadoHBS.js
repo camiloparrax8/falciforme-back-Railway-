@@ -77,7 +77,7 @@ module.exports = (sequelize, DataTypes) => {
     {
       sequelize,
       modelName: 'EstadoHBS',
-      tableName: 'estado_hbs',
+      tableName: 'Estado_HBS',
       timestamps: true,
       paranoid: true, // Habilita el borrado lógico
       underscored: true, // Usa snake_case para las columnas en la base de datos

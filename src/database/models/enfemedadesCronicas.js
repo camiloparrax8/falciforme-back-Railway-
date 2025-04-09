@@ -82,7 +82,7 @@ module.exports = (sequelize, DataTypes) => {
         {
             sequelize,
             modelName: 'EnfermedadCronica',
-            tableName: 'enfermedades_cronicas',
+            tableName: 'Enfermedades_Cronicas',
             timestamps: true,
             paranoid: true,
             underscored: true,

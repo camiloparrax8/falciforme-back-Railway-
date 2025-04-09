@@ -84,7 +84,7 @@ module.exports = (sequelize, DataTypes) => {
         {
             sequelize,
             modelName: 'RedPrimaria',
-            tableName: 'red_primaria',
+            tableName: 'Red_Primaria',
             timestamps: true,
             paranoid: true, // Habilita el borrado lógico
             underscored: true, // Usa snake_case en lugar de camelCase para los nombres de las columnas

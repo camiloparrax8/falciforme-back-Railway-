@@ -111,7 +111,7 @@ module.exports = (sequelize, DataTypes) => {
         {
             sequelize,
             modelName: 'Acompanante',
-            tableName: 'acompanantes',
+            tableName: 'Acompanantes',
             timestamps: true,
             paranoid: true, // Habilita el borrado lógico
             underscored: true, // Usa snake_case en lugar de camelCase para los nombres de las columnas

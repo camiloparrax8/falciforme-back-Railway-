@@ -68,7 +68,7 @@ module.exports = (sequelize, DataTypes) => {
         {
             sequelize,
             modelName: 'Vacuna',
-            tableName: 'vacunas',
+            tableName: 'Vacunas',
             timestamps: true,
             paranoid: true, // Habilita el borrado lógico
             underscored: true, // Usa snake_case en lugar de camelCase para los nombres de las columnas
